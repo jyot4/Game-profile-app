@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Admin {
+    background-color: rgb(2, 0, 36);
+    color: rgb(219, 55, 110);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .data {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 70%; 
+    /* margin: auto;  */
+  }
+  
+  .data label {
+    display: inline-block;
+    margin-top: 10px;
+    width: 30%; 
+    text-align: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: large;
+  }
+  
+  .data input,
+  .data select {
+    width: 70%; 
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid rgb(207, 56, 106);
+    border-radius: 5px;
+    outline: none;
+    
+  }
+  
+  .data button {
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+    width: 40%; /* Adjust the width as needed */
+    
+    margin: 20px; /* Center the button horizontally */
+  }
+  
+  .data button:hover {
+    background-color:rgb(208, 39, 95);
+  }
+  
