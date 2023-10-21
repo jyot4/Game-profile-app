@@ -7,6 +7,8 @@ function Client() {
 
 const [search , setSearch] = useState('')
 const [getClientData ,setGetClientData] = useState({})
+const[QrSrc ,setQrSrc] = useState()
+
 
   function handleClient(e){
     e.preventDefault()
@@ -15,6 +17,8 @@ const [getClientData ,setGetClientData] = useState({})
     if(result.data.status === 200){
       console.log(result.data.message)
       setGetClientData(result.data.findData)
+      //for Qr code ...
+      setQrSrc(`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://localhost:4500/form`)
     }
     else{
 alert(result.data.message)
@@ -64,11 +68,13 @@ console.log('hello')
           <li className='left'>Action</li>
           <li><Link to=" ">Download</Link></li>
 
-          
+          <img  className= 'Qrimg' src={QrSrc}  alt='Qr'></img>
         </ul>
-        : ""
+        : " "
 
       }
+
+     
     </div>
     </div>
     </>

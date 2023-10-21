@@ -1,0 +1,194 @@
+[{
+  "_id": {
+    "$oid": "653167e5079dd4433a0b8ab9"
+  },
+  "Serial": "dgdf",
+  "Name": "sween",
+  "Aadhar": "6874359843",
+  "Tournament": "dgjdjfdlk",
+  "Venue": "ritoepri",
+  "Organized": "dgjdlgk",
+  "Position": "Qualified",
+  "Game": "Kabaddi",
+  "AgeGrp": "Juinor",
+  "State": "Punjab"
+},
+{
+  "_id": {
+    "$oid": "653167e8079dd4433a0b8aba"
+  },
+  "Serial": "dgdf",
+  "Name": "sween",
+  "Aadhar": "6874359843",
+  "Tournament": "dgjdjfdlk",
+  "Venue": "ritoepri",
+  "Organized": "dgjdlgk",
+  "Position": "Qualified",
+  "Game": "Kabaddi",
+  "AgeGrp": "Juinor",
+  "State": "Punjab"
+},
+{
+  "_id": {
+    "$oid": "65316b630ae70e95826472cd"
+  },
+  "Serial": "gjdfjd",
+  "Name": "vikash",
+  "Aadhar": "7767665756",
+  "Tournament": "bfgjhgk",
+  "Venue": "fdhgj",
+  "Organized": "fhgj",
+  "Position": "2ND Sliver",
+  "Game": "Kabaddi",
+  "AgeGrp": "Senior",
+  "State": "Utter pradesh"
+},
+{
+  "_id": {
+    "$oid": "65316b670ae70e95826472ce"
+  },
+  "Serial": "gjdfjd",
+  "Name": "vikash",
+  "Aadhar": "7767665756",
+  "Tournament": "bfgjhgk",
+  "Venue": "fdhgj",
+  "Organized": "fhgj",
+  "Position": "2ND Sliver",
+  "Game": "Kabaddi",
+  "AgeGrp": "Senior",
+  "State": "Utter pradesh"
+},
+{
+  "_id": {
+    "$oid": "65316db895e4412f6a4f6bbe"
+  },
+  "Serial": "54",
+  "Name": "priya",
+  "Aadhar": "984533w33",
+  "Tournament": "khjlkhd",
+  "Venue": "vdghfj",
+  "Organized": "vgyt",
+  "Position": "2ND Sliver",
+  "Game": "Hockey",
+  "AgeGrp": "Juinor",
+  "State": "Utter pradesh"
+},
+{
+  "_id": {
+    "$oid": "65316dba95e4412f6a4f6bbf"
+  },
+  "Serial": "54",
+  "Name": "priya",
+  "Aadhar": "984533w33",
+  "Tournament": "khjlkhd",
+  "Venue": "vdghfj",
+  "Organized": "vgyt",
+  "Position": "2ND Sliver",
+  "Game": "Hockey",
+  "AgeGrp": "Juinor",
+  "State": "Utter pradesh"
+},
+{
+  "_id": {
+    "$oid": "65321a96ed97604e0449745e"
+  },
+  "Serial": "796/7575/576",
+  "Name": "priya vyas",
+  "Aadhar": "456586745454",
+  "Tournament": "state tournament",
+  "Venue": "poornima university , jaipur",
+  "Organized": "jaipur",
+  "Position": "1ND Sliver",
+  "Game": "Kabaddi",
+  "AgeGrp": "Senior",
+  "State": "Rajasthan"
+},
+{
+  "_id": {
+    "$oid": "65321a9bed97604e0449745f"
+  },
+  "Serial": "796/7575/576",
+  "Name": "priya vyas",
+  "Aadhar": "456586745454",
+  "Tournament": "state tournament",
+  "Venue": "poornima university , jaipur",
+  "Organized": "jaipur",
+  "Position": "1ND Sliver",
+  "Game": "Kabaddi",
+  "AgeGrp": "Senior",
+  "State": "Rajasthan"
+},
+{
+  "_id": {
+    "$oid": "65321acfed97604e04497460"
+  },
+  "Serial": "796/7575/576",
+  "Name": "priya vyas",
+  "Aadhar": "456586745454",
+  "Tournament": "state tournament",
+  "Venue": "poornima university , jaipur",
+  "Organized": "jaipur",
+  "Position": "1ND Sliver",
+  "Game": "Kabaddi",
+  "AgeGrp": "Senior",
+  "State": "Rajasthan"
+},
+{
+  "_id": {
+    "$oid": "653224a8e80b7ce431b85483"
+  },
+  "Name": "Sachin Kumar",
+  "Aadhar": "123451234512",
+  "Tournament": "national",
+  "Venue": "Jaipur",
+  "Organized": "Jaipur",
+  "Position": "3ND Sliver",
+  "Game": "Badminton",
+  "AgeGrp": "Juinor",
+  "State": "Rajasthan"
+},
+{
+  "_id": {
+    "$oid": "65322bdaab36b15678931290"
+  },
+  "Serial": "20943/45665",
+  "Name": "priyaa",
+  "Aadhar": "66844587665",
+  "Tournament": "national",
+  "Venue": "jaipur",
+  "Organized": "jaipur",
+  "Position": "2ND Sliver",
+  "Game": "Hockey",
+  "AgeGrp": "Senior",
+  "State": "Rajasthan"
+},
+{
+  "_id": {
+    "$oid": "65322c29ab36b15678931291"
+  },
+  "Serial": " ",
+  "Name": " jyoti",
+  "Aadhar": "459436984096",
+  "Tournament": " state",
+  "Venue": " jaipur",
+  "Organized": " jaipur",
+  "Position": "2ND Sliver",
+  "Game": "Kabaddi",
+  "AgeGrp": "Senior",
+  "State": "Utter pradesh"
+},
+{
+  "_id": {
+    "$oid": "65325bffab36b15678931292"
+  },
+  "Serial": "905",
+  "Name": "nisha",
+  "Aadhar": "123456789",
+  "Tournament": "state",
+  "Venue": "makrana",
+  "Organized": "makrana",
+  "Position": "1ND Sliver",
+  "Game": "Hockey",
+  "AgeGrp": "Juinor",
+  "State": "Punjab"
+}]
