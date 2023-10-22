@@ -97,9 +97,9 @@ padding: 50px 0px;
     margin-top: 20px;
     border-radius: 2px;
     border: none;
-    background-color:rgb(102, 102, 102);
+   
     font-size: 19px;
-    color: white;
+    color: black;
     box-shadow: 5px 5px 5px rgb(244, 243, 243);
 }
 
@@ -119,4 +119,9 @@ img{
     width: 50%;
     height: 50%;
 
+}
+
+
+.playerData .right button {
+color: black;
 }

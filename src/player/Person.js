@@ -6,8 +6,8 @@ import './Person.css'
 function Person() {
 
 
-  let serialNo;
-    // const [Serial ,setSerial] = useState({text :''})
+  // let serialNo;
+    const [Serial ,setSerial] = useState('')
     const [Name ,setName] = useState('')
     const [Aadhar ,setAadhar] = useState('')
     const [Tournament ,setTournament] = useState('')
@@ -23,40 +23,40 @@ function Person() {
 function handleSubmit(e){
   e.preventDefault()
 
-//to get the number of tournament in which position player are 
+// //to get the number of tournament in which position player are 
 
 
-let digit = Tournament.split("")[0]
-digit = String(digit).padStart(2, "0")
+// let digit = Tournament.split("")[0]
+// digit = String(digit).padStart(2, "0")
 
-// console.log(digit)
-
-
-//to get the letter of level of tournament in which player position achieved
-
-let letter = Tournament.split(" ")[1]
-letter = letter.charAt(0).toUpperCase()
+// // console.log(digit)
 
 
-//to get the last two digit of the year 
+// //to get the letter of level of tournament in which player position achieved
 
-let year = new Date()
-year = year.getFullYear().toString()
-year = year.split("")[2] + year.split("")[3]
-
-console.log(year)
-
-// set the serial no in SGFI/N/05/23
-serialNo = `SGFI/${letter}/${digit}/${year}/`
+// let letter = Tournament.split(" ")[1]
+// letter = letter.charAt(0).toUpperCase()
 
 
+// //to get the last two digit of the year 
+
+// let year = new Date()
+// year = year.getFullYear().toString()
+// year = year.split("")[2] + year.split("")[3]
+
+// console.log(year)
+
+// // set the serial no in SGFI/N/05/23
+// serialNo = `SGFI/${letter}/${digit}/${year}/`
 
 
 
- axios.post('http://localhost:4500/form' ,{serialNo ,Name ,Aadhar ,Tournament,Venue,Organized,Position,Game,AgeGrp,State} )
+
+
+ axios.post('http://localhost:4500/form' ,{Serial ,Name ,Aadhar ,Tournament,Venue,Organized,Position,Game,AgeGrp,State} )
 .then((result)=>{
 console.log(result.data)
-// setSerial(' ')
+setSerial(' ')
 setName(' ')
 setGame(' ')
 setPosition(' ')

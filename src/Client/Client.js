@@ -1,7 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState , useRef} from 'react'
 import axios from 'axios'
 import {Link} from 'react-router-dom'
 import './Client.css'
+import html2canvas from 'html2canvas';
+import jsPDF from 'jspdf';
+
+
 
 function Client() {
 
@@ -30,6 +34,29 @@ alert(result.data.message)
   })
 
   }
+
+
+
+//code for pdf download 
+
+const formDataRef = useRef(null)
+function generatePassword(){
+  const formContanier = formDataRef.current;
+  html2canvas(formContanier)
+  .then((canvas)=>{
+    const imgdata = canvas.toDataURL(`image/png`);
+    const pdf = new jsPDF('1', 'mm' ,'a4')
+
+
+    const pagewidth = pdf.internal.pageSize.width - 20;
+    const pageHeight = pdf.internal.pageSize.height - 20;
+
+
+    pdf.addImage(imgdata ,'PNG' ,10 , 10 , pagewidth ,pageHeight);
+    pdf.save('form.pdf');
+  })
+}
+ 
 console.log('hello')
   return (
     <>
@@ -43,7 +70,7 @@ console.log('hello')
   </form>
 
     
-    <div className='playerData'>
+    <div className='playerData' ref={formDataRef}>
       {
         (Object.keys(getClientData).length !== 0)
         ? <ul>
@@ -66,7 +93,7 @@ console.log('hello')
           <li className='left'>Venue</li>
           <li className='right'>{getClientData.Venue}</li>
           <li className='left'>Action</li>
-          <li><Link to=" ">Download</Link></li>
+        <li className='right' onClick={(e)=>{e.preventDefault(); generatePassword()}}><Link>Download</Link></li>
 
           <img  className= 'Qrimg' src={QrSrc}  alt='Qr'></img>
         </ul>
